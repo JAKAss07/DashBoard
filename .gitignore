@@ -1,24 +1,19 @@
-# Variables de entorno (contiene la connection string de PostgreSQL)
 .env
 .env.*
 !.env.example
 
-# Entorno virtual
 venv/
 .venv/
 env/
 
-# Caché de Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Herramientas y editores
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# Logs locales y archivos temporales
 *.log
 *.tmp
